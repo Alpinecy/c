@@ -1,0 +1,21 @@
+<script>
+const queryString = window.location.search;
+const params = new URLSearchParams(queryString);
+const client = params.get('client');
+const msg = params.get('msgenabled');
+const b64link = btoa(unescape(encodeURIComponent("https://icy-morning-f842.matveev-vsevolodd.workers.dev/config.txt")))
+if (client === "incy") {
+    window.location.href = "incy://import/" + b64link;
+} else if (client === "happ") {
+    window.location.href = "happ://crypt5/neirEJXQ02hVAJnC0m14q2oa7CqG2JZX/+o+wOJ+cIME8ctIBi6Y1GS0h37Di7//HcZyL/cyddP+ug5z5HUkxCFk5GUHaCC8zRMelu+i+UEvpdpeDVLHBcM1iUX9GE9wOjmH2ODFyf9mJltFsOtT84OUP0siw=GtlfMTuJTvQUKTWuRFwa3JuHYQP3KkJcpXdgnBQXxl2GG1sM1HP1mhHg/Iv2YCJzF7ROhltd+mpRFd51RflbbGXKMv58998Y2Kz327cb9COTjhlSOZs+68Wg4WuZjb5yFRlzfqbWPxQ6Sw7qQkMkEgNIC3L7TxDQ+5vmF1x0k1W5td12hHWlE8torSyNwH3j8WH/qbX5+NutJM01/XVqGNH86y+rHbD87H+XPPR3zVm67ssdA2kAYixPVelLooU3Yq2582C8kX0wQj/2waeXA8d4aePDGQomtaB2mhdT7dcb3Wo88S1Xj9PcfmYB44EyOmSHxta4y4U+nb90Mp7PxfErSvWWS7kNWnbbBPPlklqkDc/Qd3+Undzq9bd7gCKYSF+wr212Ru/Xd4H/J9YWHyUcW2HSk0AvukZz35yNouLP1sa/pULCK6CbW4bx0Q1NGwTuN3uEyMZm1mXNyAOgbqYK13ly9K28MYSt3xQ2jcKLCDc867GYVlHECTZ/QidZ8EpkIjtsvHu0JE6QW0z3WlMm7FSAWscHxwRjON8a8KYk5BJOOIOOaqc9pGaENDcXjXrl+6aaDLBsGXA1Ds5zGbaNmVI59DTbKtqBOhxGjaXJyX8w2Hm4uPTXuCDb5JvyWnGL4jfnSEub6zKJTVMt4aWIHVhL5ugKumvjjAvsEbk=pOftjv";
+} else if (client === "happ-pc") {
+    window.location.href = "happ://add/https://icy-morning-f842.matveev-vsevolodd.workers.dev/config.txt";
+} else {
+window.location.href = "https://web.max.ru/";
+}
+if (msg === "1") {
+alert("Если конфиг не имп0ртируется, обн0вите прил0жение либо напишите в лс.")
+} else {
+console.log("msg isnt required");
+}
+</script>

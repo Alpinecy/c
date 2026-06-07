@@ -1,0 +1,5 @@
+# profile-title: Config | Hosted by CLOUDFLARE
+# profile-update-interval: 1
+# Количество: 1
+
+vless://17718a3d-3adf-4d67-b894-6375238e5386@31.76.49.60:8443?encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=firefox&host=alfabank.ru&mode=auto&path=%2F&pbk=0kuKidfQpoJaysCKUmuAYIJvLETkM_u3Epvps_NjpT4&security=reality&sid=add704&sni=alfabank.ru&spx=%2FZWRtm74pYo2lIR3&type=xhttp&x_padding_bytes=100-1000#XHTTP-#1
